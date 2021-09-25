@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+body {
+  background-image: url("https://st3.depositphotos.com/1756443/36658/i/450/depositphotos_366589168-stock-photo-blue-software-developer-background-software.jpg");
+  background-size: cover;
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  background: #f7f7f7;
+  margin: 64px;
+  border-radius: 20px;
+  box-shadow: 6px 6px 6px #0e1d2f;
+  color: #1c1c1c;
+  padding: 64px;
+}
+
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+}
+
+.perfil {
+  display: flex;
+}
+
+.perfil-foto {
+  border-radius: 400px;
+  max-height: 160px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.titulo {
+  margin-left: 16px;
+}
+
+.titulo h1 {
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.titulo h3 {
+  font-weight: 400;
+  font-size: 24px;
+}
+
+.tema button {
+  cursor: pointer;
+  align-self: flex-end;
+  font-size: 24px;
+  font-weight: 400;
+  /*   Primeiro o topo e depois os lados. */
+  padding: 8px, 16px;
+  background: #ecf4ff;
+  border: 2px solid #0e1d2f;
+  box-sizing: border-box;
+  border-radius: 100px;
+}
+
+.projetos {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  margin-top: 32px;
+  padding: 32px;
+}
+
+.projetos ul {
+  list-style: none;
+  color: #1c1c1c;
+  font-weight: 700;
+  font-size: 48px;
+}
+
+.projetos p {
+  border-radius: 20px;
+  text-decoration: none;
+  color: #1c1c1c;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 48px;
+}
+
+.redes {
+  margin-top: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  text-decoration: none;
+  color: #1c1c1c;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 48px;
+}
+
+.container2 {
+  background: linear-gradient(230.65deg, #5b2cf5 27.49%, #7451e8 83.19%);
+  box-shadow: 2px 2px 4px rgba(16, 16, 16, 0.42);
+  border-radius: 20px;
+}
+
+.dark {
+  background-image: url("https://st3.depositphotos.com/1756443/36658/i/450/depositphotos_366589168-stock-photo-blue-software-developer-background-software.jpg");
+}
+
+.dark .container {
+  background: #333439;
+  box-shadow: 6px 6px 6px #0e1d2f;
+  border-radius: 20px;
+  color: #f7f7f7;
+}
+
+.dark .projetos {
+  color: #1c1c1c;
+}
+
+.dark .tema button {
+  color: #ffffff;
+  background: #1c1c1c;
+  border: 2px solid #f7f7f7;
+  box-sizing: border-box;
+  border-radius: 100px;
+}
